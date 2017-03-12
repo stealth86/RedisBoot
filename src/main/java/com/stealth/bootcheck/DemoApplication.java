@@ -25,7 +25,7 @@ public class DemoApplication {
 	@Bean
 	RedisConnectionFactory connectionFactory(){
 		JedisConnectionFactory jedisConnection=new JedisConnectionFactory();
-		jedisConnection.setHostName("10.0.0.191");
+		jedisConnection.setHostName("localhost");
 		jedisConnection.setPassword("");
 		return jedisConnection; 
 	}
